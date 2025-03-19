@@ -1,0 +1,375 @@
+Start state:
+32 88 31 E0 
+43 5A 31 37 
+F6 30 98 07 
+A8 8D A2 34 
+key:
+FD B8 07 04 
+E8 6C C0 60 
+F7 3B D3 5E 
+A9 FF 9D DD 
+Round 0:
+state
+CF 30 36 E4 
+AB 36 F1 57 
+01 0B 4B 59 
+01 72 3F E9 
+Round 1:
+SubBytes
+8A 04 05 69 
+62 05 A1 5B 
+7C 2B B3 CB 
+7C 40 75 1E 
+ShiftRows
+8A 04 05 69 
+05 A1 5B 62 
+B3 CB 7C 2B 
+1E 7C 40 75 
+MixColumns
+AD 50 D0 0F 
+47 67 AC 9E 
+DB 77 66 A8 
+2A A5 C2 18 
+key:
+14 33 5B 9A 
+A3 45 21 0F 
+D4 4D 3A 58 
+B6 7C 5B 6C 
+AddRoundKey
+B9 74 80 B0 
+F3 22 56 AA 
+04 E1 5C 9A 
+B9 E2 F3 74 
+Round 2:
+SubBytes
+56 92 CD E7 
+0D 93 B1 AC 
+F2 F8 4A B8 
+56 98 0D 92 
+ShiftRows
+56 92 CD E7 
+93 B1 AC 0D 
+4A B8 F2 F8 
+92 56 98 0D 
+MixColumns
+DA 27 FC 1C 
+19 6E B2 08 
+04 1B 2D 39 
+37 E3 16 DD 
+key:
+8A 32 35 31 
+82 EE 2E 4E 
+A7 9C 4F 11 
+11 EE 73 AE 
+AddRoundKey
+50 2B 31 06 
+A5 80 35 AD 
+5B 2E 62 07 
+0D E6 4A 73 
+Round 3:
+SubBytes
+53 F1 C7 6F 
+06 CD 96 95 
+39 31 AA C5 
+D7 8E D6 8F 
+ShiftRows
+53 F1 C7 6F 
+CD 96 95 06 
+AA C5 39 31 
+8F D7 8E D6 
+MixColumns
+CF B8 5B 97 
+4A 45 94 EE 
+86 33 A9 F9 
+33 E6 6A 31 
+key:
+D3 E0 BB 21 
+8C C9 E8 E7 
+56 1B 21 79 
+52 2E 75 19 
+AddRoundKey
+1C AA 3D 12 
+34 8C DB 01 
+0D 8F 88 13 
+C5 C0 8C 28 
+Round 4:
+SubBytes
+9C AC 27 C9 
+18 64 B9 7C 
+D7 73 C4 7D 
+A6 BA 64 34 
+ShiftRows
+9C AC 27 C9 
+64 B9 7C 18 
+C4 7D D7 73 
+34 A6 BA 64 
+MixColumns
+7F 37 37 77 
+48 E4 1E 7C 
+A7 07 3B AD 
+B6 08 9B E3 
+key:
+1C 2E 1B 2A 
+34 DA F4 BA 
+73 EF A0 B1 
+EC 02 71 DF 
+AddRoundKey
+63 66 BC 9C 
+03 3E F3 B2 
+44 F1 9B 2A 
+9B 7E DC 3C 
+Round 5:
+SubBytes
+FB 33 65 DE 
+7B B2 0D 37 
+1B A1 14 E5 
+14 F3 86 EB 
+ShiftRows
+FB 33 65 DE 
+B2 0D 37 7B 
+14 E5 1B A1 
+EB 14 F3 86 
+MixColumns
+DF 53 47 7D 
+80 09 D3 95 
+7B D5 6A 7E 
+0D 56 6D B4 
+key:
+36 D6 6D 4C 
+78 B1 59 BE 
+9E 85 A4 DD 
+CC E2 97 8E 
+AddRoundKey
+E9 56 16 41 
+2B B8 8C E8 
+D9 56 CE B0 
+B1 77 E9 3A 
+Round 6:
+SubBytes
+1E B1 47 83 
+F1 6C 64 9B 
+35 B1 8B E7 
+C8 F5 1E 80 
+ShiftRows
+1E B1 47 83 
+6C 64 9B F1 
+8B E7 35 B1 
+80 C8 F5 1E 
+MixColumns
+83 C0 E4 DE 
+FA 83 43 C0 
+F8 C0 B2 96 
+BA AC 29 E2 
+key:
+B6 98 83 A9 
+F5 2F DB 61 
+6A 85 25 94 
+C5 C7 B6 69 
+AddRoundKey
+35 62 7B 13 
+35 AC 1B CD 
+8E C6 97 BD 
+1B 07 20 8B 
+Round 7:
+SubBytes
+96 AA 21 7D 
+96 91 AF BD 
+19 B4 88 7A 
+AF C5 B7 3D 
+ShiftRows
+96 AA 21 7D 
+91 AF BD 96 
+88 7A 19 B4 
+3D AF C5 B7 
+MixColumns
+2A 11 4B C2 
+70 CE 1B 75 
+42 AE FA 56 
+58 3A 5A D0 
+key:
+E5 33 5E 12 
+97 26 7F C1 
+BC 39 9D 40 
+35 D7 40 CE 
+AddRoundKey
+CF 43 1C 4A 
+86 E8 D1 FB 
+F7 22 67 1A 
+F7 A2 16 1E 
+Round 8:
+SubBytes
+8A 1A 9C D6 
+44 9B 3E 0F 
+68 93 85 A2 
+68 3A 47 72 
+ShiftRows
+8A 1A 9C D6 
+9B 3E 0F 44 
+85 A2 68 93 
+72 68 3A 47 
+MixColumns
+4E 41 96 7F 
+BC F3 C3 62 
+60 00 0D AC 
+AF B7 66 38 
+key:
+C6 5E DD 74 
+FC D3 08 69 
+E1 64 41 D5 
+0C CB 7D 14 
+AddRoundKey
+88 E2 BD DB 
+BD 20 08 DE 
+77 A7 4C B3 
+73 A9 D1 2C 
+Round 9:
+SubBytes
+C4 98 7A B9 
+7A B7 30 1D 
+F5 5C 29 6D 
+8F D3 3E 71 
+ShiftRows
+C4 98 7A B9 
+B7 30 1D 7A 
+29 6D F5 5C 
+71 8F D3 3E 
+MixColumns
+09 BB B2 2B 
+99 C0 F8 EB 
+F5 97 F8 DB 
+85 97 39 8A 
+key:
+77 44 1A 08 
+6E 48 37 F6 
+BF 86 1B 5B 
+CF 18 58 96 
+AddRoundKey
+7E DD EF 8D 
+D5 88 A0 61 
+0D 7E E3 62 
+E4 F3 83 1C 
+Round 10:
+SubBytes
+F3 C1 DF 5D 
+03 C4 E0 EF 
+D7 F3 11 AA 
+69 0D EC 9C 
+ShiftRows
+F3 C1 DF 5D 
+C4 E0 EF 03 
+11 AA D7 F3 
+9C 69 0D EC 
+MixColumns
+27 CF AA F8 
+61 96 D5 C0 
+55 75 92 58 
+A0 B9 8C D4 
+key:
+94 CA 17 63 
+C5 16 1E 77 
+71 15 54 81 
+3C F7 8A 9E 
+AddRoundKey
+B3 AB 42 C3 
+0A 80 6B CE 
+DB C0 C6 0D 
+C4 37 D2 4A 
+Round 11:
+SubBytes
+6D 62 2C 2E 
+67 CD 7F 8B 
+B9 BA B4 D7 
+1C 9A B5 D6 
+ShiftRows
+6D 62 2C 2E 
+CD 7F 8B 67 
+B4 D7 B9 BA 
+D6 1C 9A B5 
+MixColumns
+F4 FD B2 79 
+8E E2 8C 36 
+FD 6B 7B 69 
+FA 80 E2 DE 
+key:
+8C C8 D2 DA 
+9B D3 E4 12 
+B3 35 2E 75 
+C4 DC 84 12 
+AddRoundKey
+78 46 2F 20 
+66 31 8F 92 
+01 B9 55 97 
+BD EA ED CC 
+Round 12:
+SubBytes
+BC 5A 15 B7 
+33 C7 73 4F 
+7C 56 FC 88 
+7A 87 55 4B 
+ShiftRows
+BC 5A 15 B7 
+C7 73 4F 33 
+FC 88 7C 56 
+4B 7A 87 55 
+MixColumns
+86 7D 45 72 
+D3 45 AC E1 
+00 88 30 19 
+23 7E D7 0D 
+key:
+7D B7 A0 C3 
+58 4E 50 27 
+B8 AD F9 78 
+6B 9C 16 88 
+AddRoundKey
+FB 64 A0 E0 
+25 0B D8 59 
+FD 01 C9 AF 
+19 7D 0F 85 
+Round 13:
+SubBytes
+0F 43 E0 E1 
+3F 2B 61 CB 
+54 7C DD 79 
+D4 FF 76 97 
+ShiftRows
+0F 43 E0 E1 
+2B 61 CB 3F 
+DD 79 54 7C 
+97 D4 FF 76 
+MixColumns
+29 B2 27 D2 
+88 DE B7 6E 
+36 6E 99 41 
+92 6D BC 97 
+key:
+A2 6A B8 62 
+57 84 60 72 
+0F 3A 14 61 
+00 DC 58 4A 
+AddRoundKey
+8B E2 8E F0 
+E5 5A 0E 1F 
+28 8D 8D DD 
+D2 B2 19 DD 
+Round 14:
+SubBytes
+3D 98 19 8C 
+D9 BE AB C0 
+34 5D 5D C1 
+B5 37 D4 C1 
+ShiftRows
+3D 98 19 8C 
+BE AB C0 D9 
+5D C1 34 5D 
+C1 B5 37 D4 
+key:
+7D CA 6A A9 
+B7 F9 A9 8E 
+6E C3 3A 42 
+C1 5D 4B C3 
+AddRoundKey
+40 52 73 25 
+09 52 69 57 
+33 02 0E 1F 
+00 E8 7C 17 

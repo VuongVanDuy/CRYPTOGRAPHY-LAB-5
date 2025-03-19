@@ -1,0 +1,8 @@
+state:
+ 3D 20 B6 5F 3E 17 86 AA E9 B8 9F 37 E7 CA 81 3D
+After xor key:
+ 44 D1 7F AD C3 5E 83 ED 51 4C AD 32 70 6C 73 26
+After apply S_Box:
+ EA 1B 57 9F 40 5D A9 E5 70 FD 9F 02 32 9D 3D EF
+After apply L:
+ D4 8E DE 32 C8 E6 7E 10 49 89 E1 49 29 D3 F9 46
